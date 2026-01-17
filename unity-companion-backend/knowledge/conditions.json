@@ -1,0 +1,131 @@
+{
+    "conditions": [
+        {
+            "id": "trisomy21",
+            "name": "Down Syndrome (Trisomy 21)",
+            "description": "A chromosomal condition caused by an extra copy of chromosome 21.",
+            "inheritance": "Chromosomal (not inherited)",
+            "frequency": "1 in 700 births",
+            "key_facts": [
+                "Most common chromosomal condition",
+                "Can cause intellectual disability and developmental delays",
+                "Many individuals lead fulfilling, independent lives",
+                "Early intervention therapies can help development"
+            ],
+            "keywords": [
+                "down",
+                "trisomy 21",
+                "chromosome 21",
+                "t21"
+            ]
+        },
+        {
+            "id": "cystic_fibrosis",
+            "name": "Cystic Fibrosis",
+            "description": "A genetic condition that affects the lungs and digestive system.",
+            "inheritance": "Recessive (both parents must be carriers)",
+            "frequency": "1 in 3,500 births",
+            "key_facts": [
+                "Affects breathing and digestion",
+                "New treatments have dramatically improved outcomes",
+                "Many people with CF live into their 40s and beyond",
+                "Early detection allows for proactive treatment"
+            ],
+            "keywords": [
+                "cf",
+                "cystic fibrosis",
+                "cftr",
+                "lungs"
+            ]
+        },
+        {
+            "id": "sickle_cell",
+            "name": "Sickle Cell Disease",
+            "description": "A blood disorder that affects hemoglobin in red blood cells.",
+            "inheritance": "Recessive (both parents must be carriers)",
+            "frequency": "1 in 365 African American births",
+            "key_facts": [
+                "Can cause pain episodes and anemia",
+                "Treatments have improved significantly",
+                "Bone marrow transplant can be curative",
+                "Carrier status provides malaria resistance"
+            ],
+            "keywords": [
+                "sickle cell",
+                "scd",
+                "hemoglobin",
+                "anemia"
+            ]
+        },
+        {
+            "id": "sma",
+            "name": "Spinal Muscular Atrophy",
+            "description": "A genetic condition that affects motor neurons and muscle strength.",
+            "inheritance": "Recessive (both parents must be carriers)",
+            "frequency": "1 in 10,000 births",
+            "key_facts": [
+                "Affects muscle movement",
+                "New gene therapies have transformed treatment",
+                "Early detection is crucial for best outcomes",
+                "Zolgensma and Spinraza are breakthrough treatments"
+            ],
+            "keywords": [
+                "sma",
+                "spinal muscular atrophy",
+                "motor neurons",
+                "muscle"
+            ]
+        },
+        {
+            "id": "trisomy18",
+            "name": "Edwards Syndrome (Trisomy 18)",
+            "description": "A chromosomal condition caused by an extra copy of chromosome 18.",
+            "inheritance": "Chromosomal (not inherited)",
+            "frequency": "1 in 5,000 births",
+            "key_facts": [
+                "Can cause serious health problems",
+                "Often detected during pregnancy",
+                "Severity varies widely",
+                "Support and resources are available"
+            ],
+            "keywords": [
+                "edwards",
+                "trisomy 18",
+                "t18",
+                "chromosome 18"
+            ]
+        },
+        {
+            "id": "trisomy13",
+            "name": "Patau Syndrome (Trisomy 13)",
+            "description": "A chromosomal condition caused by an extra copy of chromosome 13.",
+            "inheritance": "Chromosomal (not inherited)",
+            "frequency": "1 in 16,000 births",
+            "key_facts": [
+                "A serious chromosomal condition",
+                "Can cause heart defects and other health issues",
+                "Prenatal counseling is recommended"
+            ],
+            "keywords": [
+                "patau",
+                "trisomy 13",
+                "t13",
+                "chromosome 13"
+            ]
+        }
+    ],
+    "result_types": {
+        "low_risk": {
+            "meaning": "The chance of the baby having this condition is significantly reduced",
+            "next_steps": "Continue routine prenatal care"
+        },
+        "high_risk": {
+            "meaning": "Increased chance detected - this is NOT a diagnosis",
+            "next_steps": "Confirmatory testing recommended, speak with genetic counselor"
+        },
+        "carrier_positive": {
+            "meaning": "Mother carries a gene variant for a recessive condition",
+            "next_steps": "Fetal risk assessment will be performed automatically"
+        }
+    }
+}
